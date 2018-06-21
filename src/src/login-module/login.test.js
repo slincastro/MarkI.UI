@@ -15,7 +15,7 @@ it('render component', () => {
 it('contains a form element', () => {
     const wrapper = shallow(<Login />)
 
-    expect(wrapper.find('form').exists()).toBeTruthy()
+    expect(wrapper.find('form.Login-Template').exists()).toBeTruthy()
 })
 
 it('contains a label #userName element and render Username text in the label', () => {
